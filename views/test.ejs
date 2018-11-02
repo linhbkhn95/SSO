@@ -1,0 +1,77 @@
+<!-- Default home page -->
+<!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,700italic,400,300,700' rel='stylesheet'/> -->
+<link href='http://sailsjs.org/styles/fonts.css' rel='stylesheet'/>
+<link rel="stylesheet" href="/styles/css/bootstrap-theme.css">
+<link rel="stylesheet" href="/styles/dialog.css">
+<link rel="stylesheet" href="/styles/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="/styles/css/bootstrap.css">
+<link rel="stylesheet" href="/styles/css/bootstrap.min.css">
+<link rel="stylesheet" href="/styles/importer.css">
+<script src="/js/dependencies/jquery-3.2.1.min.js"></script>
+<script src="/js/dependencies/sails.io.js"></script>
+
+<script src="/js/js/bootstrap.min.js"></script>
+
+<script src="/js/modal.js"></script>
+<!--[if IE 7]>
+    <style>
+    .getting-started li{overflow:visible;clear:both}.delete{width:690px}
+    </style>
+<![endif]-->
+
+<!-- <div class="top-bar">
+    <div class="container clearfix">
+        <img class="logo" src="http://sailsjs.org/images/sails-logo.jpg" />
+    </div>
+</div>
+
+<div class="container clearfix">
+    <div class="main">
+<p>Hey <%= user.email %>!</p>
+<p><b><%= client.name %></b> is requesting access to your account.</p>
+<p><%= scope%></p>
+<p><%= map.view_account%></p>
+<p>Do you approve?</p>
+
+<form action="/oauth/authorize/decision" method="post">
+  <input name="transaction_id" type="hidden" value="<%= transactionID %>">
+  <div>
+  <input type="submit" value="Allow" id="allow">
+  <input type="submit" value="Deny" name="cancel" id="deny">
+  </div>
+</form> -->
+
+
+<!-- Modal -->
+<div class="modal fade in" id="myModal" tabindex="-1" style="display: block; padding-right: 17px;" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+        <div class="modal-title col-xs-10" style="padding-top:7px" id="myModalLabel ">
+          <img src="../images/logofss.png" class="col-xs-2" />
+           <div class="col-xs-8" style="font-size:15px">Đăng nhập qua FLEX</div>
+           <div class="col-xs-2 col-xs-push-3"><img src="../images/if_profle_1055000.png"/> </div>
+        </div>
+
+      </div>
+      <div class="modal-body" style="text-align:center">
+
+        <p>chào  <%= user.email %>!</p>
+        <p><b><%= client.name %></b> yêu cầu cấp quyền vào tài khoản của bạn.</p>
+        <p><strong><%= scope%></strong></p>
+        <!-- <p><%= map.view_account%></p> -->
+        <p>Bạn có chấp nhận ?</p>
+      </div>
+      <form action="/oauth/authorize/decision" method="post">
+        <input name="transaction_id" type="hidden" value="<%= transactionID %>">
+
+      <div class="modal-footer">
+        <input type="submit" id="allow" style="background-color: #551d8a" value="Châp nhận" class="btn btn-success"/>
+        <input type="submit" id="deny" value="Từ chối"  name="cancel" class="btn btn-default"/>
+      </div>
+    </form>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,127 @@
+<!-- Default home page -->
+<!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,700italic,400,300,700' rel='stylesheet'/> -->
+<link href='http://sailsjs.org/styles/fonts.css' rel='stylesheet'/>
+<style>
+    /* Styles included inline since you'll probably be deleting this page anyway */
+    html,body{text-align:left;font-size:1em}html,body,img,form,textarea,input,fieldset,div,p,div,ul,li,ol,dl,dt,dd,h1,h2,h3,h4,h5,h6,pre,code{margin:0;padding:0}ul,li{list-style:none}img{display:block}a img{border:0}a{text-decoration:none;font-weight:normal;font-family:inherit}*:active,*:focus{outline:0;-moz-outline-style:none}h1,h2,h3,h4,h5,h6{font-weight:normal}div.clear{clear:both}.clearfix:after{clear:both;content:".";display:block;font-size:0;height:0;line-height:0;visibility:hidden}body{font-family:"Open Sans",Arial,sans-serif;font-weight:300;font-size:15px}h1{color:#0c8da0;font-size:2em;font-weight:300}h2{font-size:1.5em;font-weight:300;margin-top:4%}h3{font-size:1.25em;font-weight:300;font-style:italic;margin-bottom:5px}h4{color:#0c8da0;font-weight:300;font-size:1.5em}span{font-weight:700}ul{margin-top:5%;margin-bottom:5%}a{text-decoration:none;color:inherit}p{margin-bottom:7px;font-size:.9em}.container{max-width:997px;margin:0 auto;padding:0 4%}.sprite{font-weight:normal;background:url(http://sailsjs.org/images/newapp.sprite.png) no-repeat}.top-bar{position:relative;padding-top:10px;background-color:#001c20;height:55px}.main{float:left;max-width:610px;height:555px;margin-top:50px}.steps{height:250px}.getting-started p{ margin-bottom: 30px; line-height: 26px; }.getting-started div{float:left;width:540px}.getting-started li{clear:both;height:60px;margin-top:20px;margin-bottom:20px}.getting-started .sprite{margin-left:10px;padding-left:60px;height:42px;width:0}.getting-started .one{background-position:0 0}.getting-started .two{background-position:0 -42px}.getting-started .three{background-position:0 -83px}.delete{margin-top:5%;height:52px;background:#e3f0f1;border:1px solid #118798;color:#118798;clear:both}.delete .sprite{margin-top:10px;margin-bottom:10px;margin-left:9%;padding-left:42px;padding-top:7px;height:25px;background-position:0 -126px}.delete a{color:#0c8da0;font-weight:bold;padding-left:1%}.side-bar{max-width:327px;height:555px;float:left;border-left:1px solid #0c8da0;margin-left:25px;margin-top:50px;padding-left:25px}.side-bar ul{margin-bottom:10%}.side-bar ul li{margin-top:5px;margin-bottom:.25em}.side-bar ul li a{margin-bottom:.25em}.side-bar .sprite{padding-left:25px}.side-bar .single_page{background-position:0 -199px}.side-bar .traditional{background-position:0 -219px}.side-bar .realtime{background-position:0 -179px}.side-bar .api{background-position:0 -158px}.boxy{font-family:Courier,"Courier New",sans-serif;background-color:#e4edec;border:1px solid #d0d6d6;padding-left:5px;padding-right:5px;padding-top:2px;padding-bottom:2px;font-weight:100}.sixteen{margin-right:10px}.nineteen{margin-right:7px}
+</style>
+ <link rel="stylesheet" href="/styles/css/bootstrap-theme.css">
+ <link rel="stylesheet" href="/styles/css/bootstrap-theme.min.css">
+ <link rel="stylesheet" href="/styles/css/bootstrap.css">
+ <link rel="stylesheet" href="/styles/css/bootstrap.min.css">
+ <link rel="stylesheet" href="/styles/dialog.css">
+ <link rel="stylesheet" href="/styles/importer.css">
+ <!--STYLES END-->
+<!--[if IE 7]>
+    <style>
+    .getting-started li{overflow:visible;clear:both}.delete{width:690px}
+    </style>
+<![endif]-->
+
+<!-- <div class="top-bar">
+	<div class="container clearfix">
+		<img class="logo" src="http://sailsjs.org/images/sails-logo.jpg" />
+	</div>
+</div>
+<div class="container clearfix">
+	<div class="main">
+		<form action="/login" method="post">
+			<div>
+			<label>Username:</label>
+			<input type="text" name="username"/><br/>
+			</div>
+			<div>
+			<label>Password:</label>
+			<input type="password" name="password"/>
+			</div>
+			<div>
+			<input type="submit" value="Submit"/>
+			</div>
+		</form>
+	</div>
+</div> -->
+<!-- <div class="container">
+    <div id="loginbox" style="margin-top:50px;" class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+        <div class="panel panel-info" >
+                <div class="panel-heading">
+                    <div class="panel-title">Đăng nhập Flex1</div>
+                    <div style="float:right; font-size: 80%; position: relative; top:-10px"><a href="#">Quên mật khẩu?</a></div>
+                </div>
+
+                <div style="padding-top:30px" class="panel-body" >
+
+                    <div style="display:none" id="login-alert" class="alert alert-danger col-sm-12"></div>
+
+                    <form action="/login" method="post" id="loginform" class="form-horizontal" role="form">
+
+                        <div style="margin-bottom: 25px" class="input-group">
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                    <input id="login-username" type="text" class="form-control" name="username" value="" placeholder="username or email">
+                                </div>
+
+                        <div style="margin-bottom: 25px" class="input-group">
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                                    <input id="login-password" type="password" class="form-control" name="password" placeholder="password">
+                                </div>
+
+
+
+
+                            <div style="margin-top:10px" class="form-group">
+                             
+                                <div class="col-sm-12 controls">
+                                  <input type="submit" id="btn-login" href="#" class="btn btn-success" value="Đăng nhập" />
+
+
+                                </div>
+                            </div>
+
+
+
+                        </form>
+
+
+
+                    </div>
+                </div>
+
+
+
+
+
+
+
+                </div>
+
+
+
+
+     </div>
+</div> -->
+<div class="container">
+    <div class="card card-container">
+        <!-- <img class="profile-img-card" src="//lh3.googleusercontent.com/-6V8xOA6M7BA/AAAAAAAAAAI/AAAAAAAAAAA/rzlHcD0KYwo/photo.jpg?sz=120" alt="" /> -->
+        <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />
+        <p id="profile-name" class="profile-name-card"></p>
+        <form action="/login" role="form" method="post" class="form-signin">
+            <span id="reauth-email" class="reauth-email"></span>
+            <input type="text" name="username"  class="form-control" placeholder="Tài khoản" required >
+            <input type="password" name="password" id="inputPassword" class="form-control" placeholder="mật khẩu" required>
+            <div id="remember" class="checkbox">
+                <label>
+                    <input type="checkbox" value="remember-me"> Nhớ mật khẩu
+                </label>
+            </div>
+            
+            <% if (message) { %>
+                
+             <p style="color:red;text-align: center"
+             > <%= message %></p>  
+            <% } %>
+            <input type="submit" class="btn btn-lg btn-primary btn-block btn-signin" value="Đăng nhập" type="submit"/>
+        </form><!-- /form -->
+        <a href="#" class="forgot-password">
+           Quên mật khẩu?
+        </a>
+    </div><!-- /card-container -->
+</div><!--

@@ -1,0 +1,18 @@
+2018-01-04 09:15:02.426 - error: Error from amqp:  TimeoutError: connection timeout
+    at Socket.<anonymous> (/home/linhtd/Desktop/git/sso/node_modules/amqp/lib/connection.js:642:15)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at Socket._onTimeout (net.js:407:8)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+2018-01-04 09:15:32.973 - error: Error from amqp:  TimeoutError: connection timeout
+    at Socket.<anonymous> (/home/linhtd/Desktop/git/sso/node_modules/amqp/lib/connection.js:642:15)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at Socket._onTimeout (net.js:407:8)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)

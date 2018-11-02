@@ -1,0 +1,185 @@
+2018-01-04 09:15:02.420 - error: Error from amqp:  TimeoutError: connection timeout
+    at Socket.<anonymous> (/home/linhtd/Desktop/git/sso/node_modules/amqp/lib/connection.js:642:15)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at Socket._onTimeout (net.js:407:8)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+2018-01-04 09:15:32.966 - error: Error from amqp:  TimeoutError: connection timeout
+    at Socket.<anonymous> (/home/linhtd/Desktop/git/sso/node_modules/amqp/lib/connection.js:642:15)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at Socket._onTimeout (net.js:407:8)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+2018-01-04 09:19:17.734 - info:  
+2018-01-04 09:19:17.739 - info:                .-..-.
+2018-01-04 09:19:17.739 - info:  
+2018-01-04 09:19:17.739 - info:    Sails              <|    .-..-.
+2018-01-04 09:19:17.739 - info:    v0.11.5             |\
+2018-01-04 09:19:17.740 - info:                       /|.\
+2018-01-04 09:19:17.740 - info:                      / || \
+2018-01-04 09:19:17.740 - info:                    ,'  |'  \
+2018-01-04 09:19:17.740 - info:                 .-'.-==|/_--'
+2018-01-04 09:19:17.740 - info:                 `--'-------' 
+2018-01-04 09:19:17.740 - info:    __---___--___---___--___---___--___
+2018-01-04 09:19:17.740 - info:  ____---___--___---___--___---___--___-__
+2018-01-04 09:19:17.740 - info:  
+2018-01-04 09:19:17.741 - info: Server lifted in `/home/linhtd/Desktop/git/sso`
+2018-01-04 09:19:17.741 - info: To see your app, visit [4mhttp://localhost:1337[24m
+2018-01-04 09:19:17.741 - info: To shut down Sails, press <CTRL> + C at any time.
+2018-01-04 09:19:17.762 - info: Default user already exists
+2018-01-04 09:19:17.763 - info: - username: ctyqlq@gmail.com
+2018-01-04 09:19:17.763 - info: - password: password
+2018-01-04 09:19:17.764 - info: Default user already exists
+2018-01-04 09:19:17.765 - info: - username: dlpp@gmail.com
+2018-01-04 09:19:17.765 - info: - password: password
+2018-01-04 09:19:17.765 - info: Default user already exists
+2018-01-04 09:19:17.766 - info: - username: nhgs@gmail.com
+2018-01-04 09:19:17.766 - info: - password: password
+2018-01-04 09:19:17.767 - info: trustedTestClient already exists
+2018-01-04 09:19:17.767 - info: - client_id: 7TJE2RLRR2
+2018-01-04 09:19:17.767 - info: - client_secret: T8aD0RVjf3kqFG0JKcjuJY4zkkiDiN
+2018-01-04 09:19:17.767 - info: - redirectURI: http://192.168.1.93:1338
+2018-01-04 09:19:17.768 - info: Fundserv already exists
+2018-01-04 09:19:17.768 - info: - client_id: CQE98XENDP
+2018-01-04 09:19:17.768 - info: - client_secret: Pc7iNRLjAWM2WXSth60Mj5ENCGwrf2
+2018-01-04 09:19:17.769 - info: - redirectURI: http://192.168.1.93:1339/auth/allow
+2018-01-04 09:19:17.769 - info: FundServDemo already exists
+2018-01-04 09:19:17.769 - info: - client_id: JVS1YSGLD1
+2018-01-04 09:19:17.769 - info: - client_secret: 6ZFTMQ1iQmzh05RhdRsQ9qmRMR5YBD
+2018-01-04 09:19:17.770 - info: - redirectURI: http://vsd.fss.com.vn/auth/allow
+2018-01-04 09:19:17.770 - info: FundservDev already exists
+2018-01-04 09:19:17.770 - info: - client_id: VAG1463JU0
+2018-01-04 09:19:17.771 - info: - client_secret: awYOp23JKvFbCQuZUVwpE4Vs3VwUrp
+2018-01-04 09:19:17.771 - info: - redirectURI: http://localhost:1339/auth/allow
+2018-01-04 09:22:27.852 - info:  
+2018-01-04 09:22:27.857 - info:                .-..-.
+2018-01-04 09:22:27.857 - info:  
+2018-01-04 09:22:27.858 - info:    Sails              <|    .-..-.
+2018-01-04 09:22:27.858 - info:    v0.11.5             |\
+2018-01-04 09:22:27.858 - info:                       /|.\
+2018-01-04 09:22:27.858 - info:                      / || \
+2018-01-04 09:22:27.859 - info:                    ,'  |'  \
+2018-01-04 09:22:27.859 - info:                 .-'.-==|/_--'
+2018-01-04 09:22:27.859 - info:                 `--'-------' 
+2018-01-04 09:22:27.859 - info:    __---___--___---___--___---___--___
+2018-01-04 09:22:27.859 - info:  ____---___--___---___--___---___--___-__
+2018-01-04 09:22:27.860 - info:  
+2018-01-04 09:22:27.860 - info: Server lifted in `/home/linhtd/Desktop/git/sso`
+2018-01-04 09:22:27.860 - info: To see your app, visit [4mhttp://localhost:1337[24m
+2018-01-04 09:22:27.861 - info: To shut down Sails, press <CTRL> + C at any time.
+2018-01-04 09:22:27.954 - info: Default user already exists
+2018-01-04 09:22:27.955 - info: - username: ctyqlq@gmail.com
+2018-01-04 09:22:27.955 - info: - password: password
+2018-01-04 09:22:27.973 - info: Default user already exists
+2018-01-04 09:22:27.974 - info: - username: dlpp@gmail.com
+2018-01-04 09:22:27.974 - info: - password: password
+2018-01-04 09:22:27.979 - info: Default user already exists
+2018-01-04 09:22:27.979 - info: - username: nhgs@gmail.com
+2018-01-04 09:22:27.980 - info: - password: password
+2018-01-04 09:22:27.980 - info: trustedTestClient already exists
+2018-01-04 09:22:27.981 - info: - client_id: 7TJE2RLRR2
+2018-01-04 09:22:27.981 - info: - client_secret: T8aD0RVjf3kqFG0JKcjuJY4zkkiDiN
+2018-01-04 09:22:27.981 - info: - redirectURI: http://192.168.1.93:1338
+2018-01-04 09:22:27.982 - info: Fundserv already exists
+2018-01-04 09:22:27.982 - info: - client_id: CQE98XENDP
+2018-01-04 09:22:27.982 - info: - client_secret: Pc7iNRLjAWM2WXSth60Mj5ENCGwrf2
+2018-01-04 09:22:27.983 - info: - redirectURI: http://192.168.1.93:1339/auth/allow
+2018-01-04 09:22:27.986 - info: FundServDemo already exists
+2018-01-04 09:22:27.987 - info: - client_id: JVS1YSGLD1
+2018-01-04 09:22:27.988 - info: - client_secret: 6ZFTMQ1iQmzh05RhdRsQ9qmRMR5YBD
+2018-01-04 09:22:27.989 - info: - redirectURI: http://vsd.fss.com.vn/auth/allow
+2018-01-04 09:22:27.993 - info: FundservDev already exists
+2018-01-04 09:22:27.993 - info: - client_id: VAG1463JU0
+2018-01-04 09:22:27.994 - info: - client_secret: awYOp23JKvFbCQuZUVwpE4Vs3VwUrp
+2018-01-04 09:22:27.994 - info: - redirectURI: http://localhost:1339/auth/allow
+2018-01-04 09:23:03.706 - info:  
+2018-01-04 09:23:03.710 - info:                .-..-.
+2018-01-04 09:23:03.711 - info:  
+2018-01-04 09:23:03.711 - info:    Sails              <|    .-..-.
+2018-01-04 09:23:03.711 - info:    v0.11.5             |\
+2018-01-04 09:23:03.711 - info:                       /|.\
+2018-01-04 09:23:03.711 - info:                      / || \
+2018-01-04 09:23:03.711 - info:                    ,'  |'  \
+2018-01-04 09:23:03.712 - info:                 .-'.-==|/_--'
+2018-01-04 09:23:03.712 - info:                 `--'-------' 
+2018-01-04 09:23:03.712 - info:    __---___--___---___--___---___--___
+2018-01-04 09:23:03.712 - info:  ____---___--___---___--___---___--___-__
+2018-01-04 09:23:03.712 - info:  
+2018-01-04 09:23:03.712 - info: Server lifted in `/home/linhtd/Desktop/git/sso`
+2018-01-04 09:23:03.713 - info: To see your app, visit [4mhttp://localhost:1337[24m
+2018-01-04 09:23:03.713 - info: To shut down Sails, press <CTRL> + C at any time.
+2018-01-04 09:23:03.733 - info: Default user already exists
+2018-01-04 09:23:03.734 - info: - username: ctyqlq@gmail.com
+2018-01-04 09:23:03.734 - info: - password: password
+2018-01-04 09:23:03.735 - info: Default user already exists
+2018-01-04 09:23:03.735 - info: - username: dlpp@gmail.com
+2018-01-04 09:23:03.735 - info: - password: password
+2018-01-04 09:23:03.736 - info: Default user already exists
+2018-01-04 09:23:03.736 - info: - username: nhgs@gmail.com
+2018-01-04 09:23:03.737 - info: - password: password
+2018-01-04 09:23:03.738 - info: trustedTestClient already exists
+2018-01-04 09:23:03.738 - info: - client_id: 7TJE2RLRR2
+2018-01-04 09:23:03.739 - info: - client_secret: T8aD0RVjf3kqFG0JKcjuJY4zkkiDiN
+2018-01-04 09:23:03.739 - info: - redirectURI: http://192.168.1.93:1338
+2018-01-04 09:23:03.740 - info: Fundserv already exists
+2018-01-04 09:23:03.741 - info: - client_id: CQE98XENDP
+2018-01-04 09:23:03.741 - info: - client_secret: Pc7iNRLjAWM2WXSth60Mj5ENCGwrf2
+2018-01-04 09:23:03.742 - info: - redirectURI: http://192.168.1.93:1339/auth/allow
+2018-01-04 09:23:03.742 - info: FundServDemo already exists
+2018-01-04 09:23:03.743 - info: - client_id: JVS1YSGLD1
+2018-01-04 09:23:03.743 - info: - client_secret: 6ZFTMQ1iQmzh05RhdRsQ9qmRMR5YBD
+2018-01-04 09:23:03.744 - info: - redirectURI: http://vsd.fss.com.vn/auth/allow
+2018-01-04 09:23:03.745 - info: FundservDev already exists
+2018-01-04 09:23:03.745 - info: - client_id: VAG1463JU0
+2018-01-04 09:23:03.746 - info: - client_secret: awYOp23JKvFbCQuZUVwpE4Vs3VwUrp
+2018-01-04 09:23:03.746 - info: - redirectURI: http://localhost:1339/auth/allow
+2018-01-04 09:26:15.186 - info:  
+2018-01-04 09:26:15.189 - info:                .-..-.
+2018-01-04 09:26:15.190 - info:  
+2018-01-04 09:26:15.190 - info:    Sails              <|    .-..-.
+2018-01-04 09:26:15.190 - info:    v0.11.5             |\
+2018-01-04 09:26:15.190 - info:                       /|.\
+2018-01-04 09:26:15.190 - info:                      / || \
+2018-01-04 09:26:15.191 - info:                    ,'  |'  \
+2018-01-04 09:26:15.191 - info:                 .-'.-==|/_--'
+2018-01-04 09:26:15.191 - info:                 `--'-------' 
+2018-01-04 09:26:15.191 - info:    __---___--___---___--___---___--___
+2018-01-04 09:26:15.191 - info:  ____---___--___---___--___---___--___-__
+2018-01-04 09:26:15.191 - info:  
+2018-01-04 09:26:15.191 - info: Server lifted in `/home/linhtd/Desktop/git/sso`
+2018-01-04 09:26:15.192 - info: To see your app, visit [4mhttp://localhost:1337[24m
+2018-01-04 09:26:15.192 - info: To shut down Sails, press <CTRL> + C at any time.
+2018-01-04 09:26:15.238 - info: Default user already exists
+2018-01-04 09:26:15.239 - info: - username: ctyqlq@gmail.com
+2018-01-04 09:26:15.239 - info: - password: password
+2018-01-04 09:26:15.241 - info: Default user already exists
+2018-01-04 09:26:15.241 - info: - username: dlpp@gmail.com
+2018-01-04 09:26:15.242 - info: - password: password
+2018-01-04 09:26:15.244 - info: Default user already exists
+2018-01-04 09:26:15.244 - info: - username: nhgs@gmail.com
+2018-01-04 09:26:15.245 - info: - password: password
+2018-01-04 09:26:15.246 - info: trustedTestClient already exists
+2018-01-04 09:26:15.247 - info: - client_id: 7TJE2RLRR2
+2018-01-04 09:26:15.248 - info: - client_secret: T8aD0RVjf3kqFG0JKcjuJY4zkkiDiN
+2018-01-04 09:26:15.248 - info: - redirectURI: http://192.168.1.93:1338
+2018-01-04 09:26:15.252 - info: Fundserv already exists
+2018-01-04 09:26:15.253 - info: - client_id: CQE98XENDP
+2018-01-04 09:26:15.253 - info: - client_secret: Pc7iNRLjAWM2WXSth60Mj5ENCGwrf2
+2018-01-04 09:26:15.254 - info: - redirectURI: http://192.168.1.93:1339/auth/allow
+2018-01-04 09:26:15.254 - info: FundServDemo already exists
+2018-01-04 09:26:15.255 - info: - client_id: JVS1YSGLD1
+2018-01-04 09:26:15.256 - info: - client_secret: 6ZFTMQ1iQmzh05RhdRsQ9qmRMR5YBD
+2018-01-04 09:26:15.256 - info: - redirectURI: http://vsd.fss.com.vn/auth/allow
+2018-01-04 09:26:15.257 - info: FundservDev already exists
+2018-01-04 09:26:15.257 - info: - client_id: VAG1463JU0
+2018-01-04 09:26:15.258 - info: - client_secret: awYOp23JKvFbCQuZUVwpE4Vs3VwUrp
+2018-01-04 09:26:15.258 - info: - redirectURI: http://localhost:1339/auth/allow
+2018-01-04 09:26:55.172 - info: Login LocalStrategy( AUNT1 passsword ) BEGIN
+2018-01-04 09:26:56.687 - info: headers is req host=localhost:1337, authorization=Bearer mvkq8MB77JdBjkxmjV3pfAOTphY4RJ17qktRPkddZ4Zh9Y2mlQZUSZw1Ubxc8JDrOyUf19IbBID7qnjDfOy1O3beAm44rCMAPhHffJjwV5vaLBoH9uGk3zagmxBZ0nKfcgRdHwAc3QdneHgdVbpCDR5L7UsoCa6cgM8lgYdEfRGFZWSTyYDo31IIFP0KY8yAInUQXzn01ooP1GtSZJ6d28fCMyNJefZNFUrRr8cJAEk4vqRzm9zRMw7BEJ2LvDa, connection=close
+2018-01-04 09:26:56.699 - info: oauthBearer:line 25 : 0=info, 1=email
